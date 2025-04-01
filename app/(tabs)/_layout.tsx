@@ -17,7 +17,7 @@ const TabIcon = ({
     <>
       <ImageBackground
         source={images.highlight}
-        className="flex flex-row w-full flex-1 min-w-[100px] min-h-[52px] mt-3 justify-center items-center rounded-full overflow-hidden"
+        className="flex flex-row w-full flex-1 min-w-[100px] min-h-[56px] mt-3 justify-center items-center rounded-full overflow-hidden"
       >
         <Image source={icon} tintColor="#151312" className="size-5" />
         <Text className="text-secondary text-base font-semibold ml-2">
@@ -51,9 +51,7 @@ const _Layout = () => {
         marginBottom: 36,
         height: 52,
         position: "absolute",
-        overflow: "hidden",
-        borderWidth: 1,
-        borderColor: "#0F0D23",
+        overflow: "hidden"
       }
     }}
     >
